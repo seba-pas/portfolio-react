@@ -10,22 +10,22 @@ const Portfolio = () => {
       id: 1,
       image: IMG1,
       title: "Bring It",
-      github: "https://github.com",
-      demo: "https://vercel.com",
+      github: "https://github.com/seba-pas/bring-it-app",
+      demo: "https://bring-it-app.vercel.app/",
     },
     {
       id: 2,
       image: IMG2,
       title: "PI DOGS",
-      github: "https://github.com",
-      demo: "https://vercel.com",
+      github: "https://github.com/seba-pas/PI-Dogs",
+      demo: "https://pi-dogs-neon.vercel.app/",
     },
     {
       id: 3,
       image: IMG3,
       title: "MEMORY CARD GAME",
-      github: "https://github.com",
-      demo: "https://vercel.com",
+      github: "https://github.com/seba-pas/MemoryCardGame-",
+      demo: "https://memory-card-game-nine.vercel.app/",
     },
   ];
   return (
