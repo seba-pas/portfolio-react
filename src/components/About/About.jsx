@@ -8,8 +8,8 @@ import { VscFolderLibrary } from "react-icons/vsc";
 const About = () => {
   return (
     <section id="about">
-      <h5>Get to Know</h5>
-      <h2>About Me</h2>
+      <h5>Some</h5>
+      <h2>Recent Experince</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -22,27 +22,34 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
 
-              <h5>Experience</h5>
-              <small>3+ years working</small>
+              <h5>Bootcamp</h5>
+              <small>800+ Hours</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
 
-              <h5>Clients</h5>
-              <small>300+ worldwide</small>
+              <h5>Team work</h5>
+              <small>Projects</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
 
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <h5>Individual</h5>
+              <small>Projects</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-            sint tempore est modi excepturi illo. Modi dolore perspiciatis ullam
-            facere non qui, doloremque libero laboriosam eius, nulla animi totam
-            praesentium!
+            Who am I?<br></br>
+            Innovative Programmer striving to make the world a more
+            unified and connected place. A creative thinker, adept in software
+            development and working with various data structures. Proficient in
+            various platforms, languages, and embedded systems. Able to
+            effectively self-manage during independent projects, as well as
+            collaborate as part of a productive team. <br></br>
+            Why me?<br></br>
+            I am a creative
+            thinker capable of resolving problems without conflicts. Always
+            curious and learning about new technologies
           </p>
           <a href="#contact" className="btn btn-primary">
             Lets Talk

@@ -40,10 +40,10 @@ const Portfolio = () => {
                 <div className="portfolio__item-image">
                   <img src={e.image} alt="" />
                 </div>
-                <h3>this is a portfolio item title</h3>
+                <h3>{e.title}</h3>
                 <div className="portfolio__items-cta">
                   <a href={e.github} className="btn">
-                    github
+                    GitHub
                   </a>
                   <a
                     href={e.demo}
@@ -51,7 +51,7 @@ const Portfolio = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    livedemo
+                    Live Demo
                   </a>
                 </div>
               </article>
