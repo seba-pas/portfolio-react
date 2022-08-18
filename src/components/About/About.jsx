@@ -49,7 +49,7 @@ const About = () => {
             Why me?<br></br>
             I am a creative
             thinker capable of resolving problems without conflicts. Always
-            curious and learning about new technologies
+            curious and learning about new technologies.
           </p>
           <a href="#contact" className="btn btn-primary">
             Lets Talk
