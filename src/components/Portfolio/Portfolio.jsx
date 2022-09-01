@@ -6,13 +6,14 @@ import IMG3 from "../../assets/portfolio3.png";
 import IMG4 from "../../assets/quotes.jpg";
 
 const Portfolio = () => {
-  const data = [
+  const data = [   
     {
       id: 1,
-      image: IMG1,
-      title: "Bring It",
-      github: "https://github.com/seba-pas/bring-it-app",
-      demo: "https://bring-it-app.vercel.app/",
+      image: IMG4,
+      title: "Quotes App",
+      github: "https://github.com/seba-pas/QuotesApp",
+      demo: "https://quotes-sebapas.vercel.app/",
+    
     },
     {
       id: 2,
@@ -28,12 +29,13 @@ const Portfolio = () => {
       github: "https://github.com/seba-pas/MemoryCardGame-",
       demo: "https://memory-card-game-nine.vercel.app/",
     },
-      {
+    {
       id: 4,
-      image: IMG4,
-      title: "Quotes App",
-      github: "https://github.com/seba-pas/QuotesApp",
-      demo: "https://quotes-sebapas.vercel.app/",
+      image: IMG1,
+      title: "Bring It",
+      github: "https://github.com/seba-pas/bring-it-app",
+      demo: "https://bring-it-app.vercel.app/",
+    
     },
   ];
   return (
