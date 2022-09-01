@@ -3,6 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.png";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.png";
+import IMG4 from "../../assets/quotes.jpg";
 
 const Portfolio = () => {
   const data = [
@@ -26,6 +27,13 @@ const Portfolio = () => {
       title: "MEMORY CARD GAME",
       github: "https://github.com/seba-pas/MemoryCardGame-",
       demo: "https://memory-card-game-nine.vercel.app/",
+    },
+      {
+      id: 4,
+      image: IMG4,
+      title: "Quotes App",
+      github: "https://github.com/seba-pas/QuotesApp",
+      demo: "https://quotes-sebapas.vercel.app/",
     },
   ];
   return (
