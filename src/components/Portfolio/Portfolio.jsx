@@ -4,6 +4,7 @@ import IMG1 from "../../assets/portfolio1.png";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.png";
 import IMG4 from "../../assets/quotes.jpg";
+import NATIVE from '../../assets/IMG_20220904_151852_081.jpg'
 
 const Portfolio = () => {
   const data = [   
@@ -13,6 +14,14 @@ const Portfolio = () => {
       title: "Quotes App",
       github: "https://github.com/seba-pas/QuotesApp",
       demo: "https://quotes-sebapas.vercel.app/",
+    
+    },
+      {
+      id: 10,
+      image: NATIVE,
+      title: "Quizz Time (Mobile)",
+      github: "https://github.com/seba-pas/quizztimenative",
+      demo: "https://sebapas-portfolio.vercel.app/",
     
     },
     {
