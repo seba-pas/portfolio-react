@@ -32,7 +32,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Jira</p>
+              <p>React Native</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
