@@ -21,7 +21,7 @@ const Portfolio = () => {
       image: NATIVE,
       title: "Quizz Time (Mobile)",
       github: "https://github.com/seba-pas/quizztimenative",
-      demo: "https://sebapas-portfolio.vercel.app/",
+      demo: "https://vimeo.com/746382143",
     
     },
     {
