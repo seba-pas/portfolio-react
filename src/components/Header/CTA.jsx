@@ -1,6 +1,6 @@
 import React from 'react'
-import CVeng from '../../assets/Sebastian Pastorenzi CV (English).pdf'
-import CVspa from '../../assets/Sebastian Pastorenzi CV (español).pdf'
+import CVeng from '../../assets/CV Sebastian Pastorenzi (English).pdf'
+import CVspa from '../../assets/CV Sebastian Pastorenzi (Español).pdf'
 
 
 const CTA = () => {
