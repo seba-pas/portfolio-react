@@ -5,6 +5,7 @@ import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.png";
 import IMG4 from "../../assets/quotes.jpg";
 import NATIVE from '../../assets/IMG_20220904_151852_081.jpg'
+import CHANCHI from '../../assets/chanchi.jpg'
 
 const Portfolio = () => {
   const data = [   
@@ -14,6 +15,14 @@ const Portfolio = () => {
       title: "Quotes App",
       github: "https://github.com/seba-pas/QuotesApp",
       demo: "https://quotes-sebapas.vercel.app/",
+    
+    },
+     {
+      id: 12,
+      image: CHANCHI,
+      title: "Chanchito(Piggy Bank)",
+      github: "https://github.com/seba-pas/chanchito",
+      demo: "https://www.youtube.com/watch?v=2WfPkP7u6wY",
     
     },
       {
