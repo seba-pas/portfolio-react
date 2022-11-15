@@ -6,9 +6,19 @@ import IMG3 from "../../assets/portfolio3.png";
 import IMG4 from "../../assets/quotes.jpg";
 import NATIVE from '../../assets/IMG_20220904_151852_081.jpg'
 import CHANCHI from '../../assets/chanchi.jpg'
+import WALLET from '../../assets/alkbank.jpg'
+
 
 const Portfolio = () => {
-  const data = [   
+  const data = [
+      {
+      id: 11,
+      image: WALLET,
+      title: "Alky Bank",
+      github: "https://github.com/seba-pas/Skill-Up-React-Alkemy",
+      demo: "https://www.youtube.com/watch?v=3RlsP3eYUp4",
+    
+    },
     {
       id: 1,
       image: IMG4,
