@@ -28,7 +28,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Trello</p>
+              <p>Web3 JS</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
