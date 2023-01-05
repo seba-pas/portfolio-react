@@ -7,11 +7,20 @@ import IMG4 from "../../assets/quotes.jpg";
 import NATIVE from '../../assets/IMG_20220904_151852_081.jpg'
 import CHANCHI from '../../assets/chanchi.jpg'
 import WALLET from '../../assets/alkbank.jpg'
+import WEB3 from '../../assets/web3.jpg'
 
 
 const Portfolio = () => {
   const data = [
-      {
+        {
+      id: 14,
+      image: WEB3,
+      title: "Krypt",
+      github: "https://github.com/seba-pas/web-3.0-eth-project-Krypt",
+      demo: "https://sebapas-web3.vercel.app/",
+    
+    },
+    {
       id: 11,
       image: WALLET,
       title: "Alky Bank",
@@ -19,6 +28,7 @@ const Portfolio = () => {
       demo: "https://www.youtube.com/watch?v=3RlsP3eYUp4",
     
     },
+  
     {
       id: 1,
       image: IMG4,
